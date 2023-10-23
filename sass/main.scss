@@ -1,7 +1,7 @@
-.header{
- background: aqua;
-}
-.section{
- min-width: 480px;
- background-color: red;
-}
+ :root{
+  --black: #2a2828;
+  --yelow:rgb(250, 218, 14);
+  --orange:rgb(250, 144, 14);
+  --gray:rgb(178, 177, 173);
+ }
+@import'./header'
