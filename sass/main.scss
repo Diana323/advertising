@@ -12,10 +12,14 @@ a{
  text-decoration: none;
  color: aliceblue;
 }
+h1, h2, h3, h4, h5 {
+margin: 0 auto;
+}
 .is-hidden{
  visibility: hidden;
  opacity: 0;
 }
+
 .visually-hidden {
  position: absolute;
  white-space: nowrap;

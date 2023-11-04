@@ -15,7 +15,7 @@
   margin: auto;
 }
 .container {
- width: 1600px;
+ width: 1300px;
  
  display: flex;
  align-items: baseline;
@@ -110,30 +110,8 @@ border: 1px solid rgb(23, 126, 132);
 .header_icon_phone{
 margin-right: 5px;
 }
-.section{
-width: 1600px;
-/* background: linear-gradient(90deg, rgba(0, 2, 10, 1) 0%, rgba(59, 168, 141, 1) 41%, rgba(119, 196, 207, 1) 52%, rgba(29, 155, 165, 1) 65%, rgba(28, 1, 1, 1) 100%); */
-padding-left: 80px;
-padding-right: 80px;
-margin-bottom: 90px;
-}
-.title_hero{
-
-font-size: 47px;
-font-family: Rubik Moonrocks;
-text-shadow: 1px 2px 1px rgba(239, 243, 246, 0.818);
-line-height: calc(47/35);
-letter-spacing: 3%;
-
-font-weight: 700;
-text-align: center;
-padding-top: 100px;
 
 
-margin: 0 auto;
-color: #090909;
-width: 1090px;
-}
 .title{
 font-weight: 700;
 font-size: 28px;
@@ -171,8 +149,6 @@ font-size: 18px;
 line-height: 26px;
 margin-bottom: 10px;
 
-
-
 color: rgba(0, 0, 0, 0.7);
 }
 .wrap_content{
@@ -181,17 +157,5 @@ font-weight: 400;
 font-size: 18px;
 line-height: 26px;
 
-
-
 color: rgba(0, 0, 0, 0.7);
-
-}
-.section_content{
-/* color: beige; */
-margin-top: 50px;
-margin-bottom: 0;
-}
-.section_hero{
-min-height: 400px;
-background: linear-gradient(90deg, rgba(0, 2, 10, 1) 0%, rgba(59, 168, 141, 1) 41%, rgba(119, 196, 207, 1) 52%, rgba(29, 155, 165, 1) 65%, rgba(28, 1, 1, 1) 100%);
 }
