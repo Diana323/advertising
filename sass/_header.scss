@@ -1,58 +1,58 @@
 .header {
      margin: auto;
      width: 415px;
-
      background-image: rgb(207, 218, 186);
 }
 
 .header_container {
+     width: 415px;
      display: flex;
      align-items: center;
-     /* justify-content: center; */
+     justify-content: center;
 }
 
 .icon {
      fill: black;
      width: 20px;
-     height: 14px;
+     height: 20px;
 }
 
-  .section_hero {
-       margin: auto;
-       width: 415px;
-       height: 160px;
-       background-color: darkslategrey;
-       background-image: url("/images/kartinki-prityagivayucshie-dengi_63.jpg");
-  }
+.section_hero {
+     margin: auto;
+     width: 415px;
+     height: 160px;
+     background-color: darkslategrey;
+     background-image: url("/images/kartinki-prityagivayucshie-dengi_63.jpg");
+}
 
-  .text_hero {
-       text-align: center;
-       font-size: 24px;
+.text_hero {
+     text-align: center;
+     font-size: 24px;
 
-  }
+}
 
-  .section {
-       width: 415px;
-       margin: auto;
-       padding: 10px 0 10px 0;
-  }
+.section {
+     width: 415px;
+     margin: auto;
+     padding: 10px 0 10px 0;
+}
 
-  .btn_order {
-       padding: 6px;
-       width: 60px;
-       height: 42px;
-       background-color: rgba(255, 255, 0, 0.897);
-       font-size: 14px;
-       border: 2px black;
-       color: rgba(8, 8, 8, 0.747);
+.btn_order {
+     padding: 6px;
+     width: 60px;
+     height: 42px;
+     background-color: rgba(255, 255, 0, 0.897);
+     font-size: 14px;
+     border: 2px black;
+     color: rgba(8, 8, 8, 0.747);
 
-       :hover,
-       :focus {
-            padding: 1px;
-            width: 66px;
-            height: 46px;
-            font-size: 18px;
-            background-color: rgba(255, 255, 36, 0.658);
-            text-shadow: 1px 1px 2px rgb(27, 26, 26);
-       }
-  }
+     :hover,
+     :focus {
+          padding: 1px;
+          width: 66px;
+          height: 46px;
+          font-size: 18px;
+          background-color: rgba(255, 255, 36, 0.658);
+          text-shadow: 1px 1px 2px rgb(27, 26, 26);
+     }
+}
