@@ -10,15 +10,29 @@
      align-items: center;
      justify-content: space-between;
 }
-
+/* logo */
 .icon {
-     fill: black;
-     width: 20px;
-     height: 20px;
-}
-.icon-leaf {
-     fill: black;
-}
+     display: inline-block;
+     width: 1em;
+     height: 1em;
+     stroke-width: 0;
+     stroke: currentColor;
+     fill: currentColor;
+   }
+   
+   /* ==========================================
+   Single-colored icons can be modified like so:
+   .icon-name {
+     font-size: 32px;
+     color: red;
+   }
+   ========================================== */
+   
+   .icon-logo {
+     width: 1.0810546875em;
+   }
+ /*   logo/ */
+
 .section_hero {
      margin: auto;
      width: 415px;
@@ -119,7 +133,7 @@ background-color: rgba(64, 64, 92, 0.849);
 
 }
 .footer_social_text{
-  font-size: small;
-  color: beige;
-  font-weight: 700;
+     font-size: small;
+     color: beige;
+     font-weight: 700;
 }

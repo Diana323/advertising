@@ -61,16 +61,28 @@ h5 {
           justify-content: space-between;
 }
 
+/* logo */
 .icon {
-  fill: black;
-  width: 20px;
-  height: 20px;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
 
-.icon-leaf {
-  fill: black;
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+.icon-logo {
+  width: 1.0810546875em;
 }
 
+/*   logo/ */
 .section_hero {
   margin: auto;
   width: 415px;
