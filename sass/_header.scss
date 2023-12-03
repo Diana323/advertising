@@ -1,14 +1,14 @@
 .header {
      margin: auto;
-     width: 415px;
-     background-image: rgb(207, 218, 186);
+     width: 414px;
+     background-image: rgb(151, 152, 150);
 }
 
 .header_container {
-     width: 415px;
+     width: 414px;
      display: flex;
      align-items: center;
-     justify-content: center;
+     justify-content: space-between;
 }
 
 .icon {
@@ -16,43 +16,110 @@
      width: 20px;
      height: 20px;
 }
-
+.icon-leaf {
+     fill: black;
+}
 .section_hero {
      margin: auto;
      width: 415px;
      height: 160px;
      background-color: darkslategrey;
-     background-image: url("/images/kartinki-prityagivayucshie-dengi_63.jpg");
+     background-image: url("/images/photo_2023-11-30_16-22-04.jpg");
 }
 
 .text_hero {
      text-align: center;
-     font-size: 24px;
-
+     font-size: 26px;
+     font-weight: bold;
+     padding-top: 15px;
+     color:  rgb(13, 31, 31);
+     text-shadow: 1px 1px 2px rgb(247, 240, 240), 0 0 1em blue, 0 0 0.2em blue;
 }
+.text-flicker {
+     animation: flicker 3s infinite; /* Параметры анимации */
+   }
+     @keyframes flicker {
+       from { opacity: 2; /* Непрозрачный текст */ }
+       to { opacity: 0.5; /* Прозрачный текст */ }
+     }
 
 .section {
      width: 415px;
+     padding: 20px;
      margin: auto;
-     padding: 10px 0 10px 0;
 }
-
+.title {
+text-align: center;
+}
 .btn_order {
-     padding: 6px;
-     width: 60px;
-     height: 42px;
-     background-color: rgba(255, 255, 0, 0.897);
-     font-size: 14px;
-     border: 2px black;
-     color: rgba(8, 8, 8, 0.747);
-
-     :hover,
-     :focus {
-          padding: 1px;
-          width: 66px;
-          height: 46px;
-          font-size: 18px;
-          background-color: rgba(255, 255, 36, 0.658);
-          text-shadow: 1px 1px 2px rgb(27, 26, 26);
+     text-align: center;
+     font-size: 26px;
+     background-color: rgb(231, 14, 14);
+     font-weight: bold;
+     color: rgb(19, 17, 17);
+    /*  text-shadow: 1px 1px 2px rgb(224, 24, 24), 0 0 1em blue, 0 0 0.2em blue; */
+     text-shadow: rgb(242, 237, 237) 0 1px;
+     border-radius: 20px;
+     box-shadow: 1px 1px 2px rgb(33, 32, 32), 0 0 1em rgb(23, 23, 24), 0 0 0.2em rgb(6, 6, 14);
+     border-color: black;
+     display: block;
+     margin: auto;
+     width: 130px;
+     padding-bottom: 6px;
+}
+     .btn_order:hover, :focus
+     {
+     text-shadow: 1px 1px 2px rgb(170, 153, 153);
+     padding-bottom: 5px;
+     font-size: 28px;
+     box-shadow: 3px 3px 2px rgba(34, 30, 30, 0.539), 0 0 1em rgb(90, 90, 94), 0 0 0.2em rgb(160, 160, 213);
+     border-color: rgb(9, 9, 9);
+     width: 130px;
+     height: 50px;
      }
+
+.wrap{
+     display: flex;
+     
+}
+.article{
+     font-size: 14px;
+
+}
+.wrap_img{
+     border-radius: 50%;
+}
+.rightimg {
+     float: right; /* Вирівнювання по правому краю */
+     
+    margin: 0; /* Відступи навколо картинки */
+     }
+.footer{
+     width: 415px;
+     margin: 0 auto;
+background-color: rgba(64, 64, 92, 0.849);
+
+}     
+.footer_wrap{
+     width: 130px;
+     display: flex;
+     justify-content: center;
+
+}
+.footer_info{
+     text-align: center;
+     padding: 10px;
+     font-size: 12px;
+     color: beige;
+}
+.footer_social {
+     display: flex;
+     align-items: start;
+     justify-content:space-around;
+
+}
+.footer_social_text{
+  font-size: small;
+  color: beige;
+  font-weight: 700;
 }
