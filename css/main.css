@@ -68,17 +68,10 @@ h5 {
   height: 1em;
   stroke-width: 0;
   stroke: currentColor;
-  fill: currentColor;
+  fill: black;
 }
 
-/* ==========================================
-Single-colored icons can be modified like so:
-.icon-name {
-  font-size: 32px;
-  color: red;
-}
-========================================== */
-.icon-logo {
+.icon-adven {
   width: 1.0810546875em;
 }
 
@@ -135,7 +128,7 @@ Single-colored icons can be modified like so:
 .btn_order {
   text-align: center;
   font-size: 26px;
-  background-color: rgb(231, 14, 14);
+  background-color: #e70e0e;
   font-weight: bold;
   color: rgb(19, 17, 17);
   /*  text-shadow: 1px 1px 2px rgb(224, 24, 24), 0 0 1em blue, 0 0 0.2em blue; */
@@ -183,7 +176,7 @@ Single-colored icons can be modified like so:
 .footer {
   width: 415px;
   margin: 0 auto;
-  background-color: rgba(64, 64, 92, 0.849);
+  background-color: rgba(17, 17, 24, 0.849);
 }
 
 .footer_wrap {
@@ -194,6 +187,7 @@ Single-colored icons can be modified like so:
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 6px;
 }
 
 .footer_info {
@@ -201,6 +195,28 @@ Single-colored icons can be modified like so:
   padding: 10px;
   font-size: 12px;
   color: beige;
+}
+
+.logo_wrap {
+  padding-left: 7px;
+  padding-top: 5px;
+  margin-top: 15px;
+  background: beige;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo_wrap_link {
+  width: 35px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: block;
 }
 
 .footer_social {
@@ -215,7 +231,40 @@ Single-colored icons can be modified like so:
 }
 
 .footer_social_text {
-  font-size: small;
-  color: beige;
+  font-size: 26px;
   font-weight: 700;
+  color: #e3dddd;
+  text-align: center;
+}
+
+/* еееееее */
+.my_link_footer {
+  border-radius: 50%;
+  padding-left: 1px;
+  /*  display: flex;
+        justify-content: center;
+        align-items: center; */
+  /*  background-color:rgba(255, 255, 255, 0.1) ;
+   fill: #FFFFFF;
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     */
+}
+
+.footer__soc_item:hover .my_link_footer,
+.footer__soc_item:focus .my_link_footer {
+  border-color: 3px 2px 2px rgb(247, 240, 240), 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.footer__soc_item {
+  background-color: beige;
+  width: 36px;
+  height: 30px;
+  border-radius: 50%;
+  -webkit-box-shadow: -1px 1px 1px rgb(247, 240, 240), 0 0 1em rgb(51, 255, 0), 0 0 0.2em rgb(0, 255, 0);
+          box-shadow: -1px 1px 1px rgb(247, 240, 240), 0 0 1em rgb(51, 255, 0), 0 0 0.2em rgb(0, 255, 0);
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }/*# sourceMappingURL=main.css.map */
