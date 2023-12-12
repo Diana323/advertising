@@ -124,6 +124,7 @@ background-color: rgba(17, 17, 24, 0.849);
      background: beige;         
      width: 50px;
      height: 50px;
+     border: 1px solid #070404;
      border-radius: 50%;
      display: block;
      justify-content: center;
@@ -149,7 +150,9 @@ background-color: rgba(17, 17, 24, 0.849);
 /* еееееее */
 .my_link_footer{
      border-radius: 50%;
-     padding-left: 1px;
+     padding-left: 1.5px;
+    
+     
     /*  display: flex;
           justify-content: center;
           align-items: center; */
@@ -159,6 +162,10 @@ background-color: rgba(17, 17, 24, 0.849);
      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
        */
 }
+.my_link_footer_inst{
+border-radius: 50%;
+     padding-left: 3px;
+}
  
  .footer__soc_item:hover .my_link_footer,
  .footer__soc_item:focus .my_link_footer{
@@ -166,11 +173,11 @@ background-color: rgba(17, 17, 24, 0.849);
  }
  .footer__soc_item{
      background-color: beige;
-     width: 36px;
+     width: 44px;
      height: 30px;
      border-radius: 50%;
      box-shadow: -1px 1px 1px rgb(247, 240, 240),
-          0 0 1em rgb(51, 255, 0),0 0 0.2em rgb(0, 255, 0);
+     0 0 1em rgb(4, 5, 4),0 0 0.2em rgb(9, 9, 9);
      display: block;
      justify-content: center;
    
