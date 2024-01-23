@@ -128,7 +128,7 @@ h5 {
 .btn_order {
   text-align: center;
   font-size: 26px;
-  background-color: #e70e0e;
+  background-color: #e8e53f;
   font-weight: bold;
   color: rgb(19, 17, 17);
   /*  text-shadow: 1px 1px 2px rgb(224, 24, 24), 0 0 1em blue, 0 0 0.2em blue; */
@@ -142,8 +142,8 @@ h5 {
   width: 130px;
   padding-bottom: 6px;
 }
-
-.btn_order:hover, :focus {
+.btn_order:hover {
+  background-color: #eda310;
   text-shadow: 1px 1px 2px rgb(170, 153, 153);
   padding-bottom: 5px;
   font-size: 28px;
