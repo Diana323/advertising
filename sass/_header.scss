@@ -42,7 +42,7 @@
 }
 .text-flicker {
      animation: flicker 3s infinite; /* Параметры анимации */
-   }
+}
      @keyframes flicker {
        from { opacity: 2; /* Непрозрачный текст */ }
        to { opacity: 0.5; /* Прозрачный текст */ }
@@ -80,7 +80,7 @@ text-align: center;
      border-color: rgb(9, 9, 9);
      width: 130px;
      height: 50px;
-      }
+     }
 }
 
 .wrap{
